@@ -1,0 +1,98 @@
+body {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+html {
+  font-size: 2rem;
+}
+
+header {
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+  position: relative;
+}
+
+.header-image {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: auto;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100%;
+  background-color: #333;
+  transition: right 0.3s ease;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.menu ul li {
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu ul li:hover {
+  background-color: #555;
+}
+
+.menu .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.slider-container {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.slider {
+  display: inline-block;
+}
+
+.slides {
+  white-space: nowrap;
+  margin-bottom: 2rem; 
+}
+.slides img {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 0.5rem; 
+}
+
+
+.slider-container::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.slider-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 0.6rem;
+}
+
+.slider-container::-webkit-scrollbar-track {
+  background: #eee;
+}
