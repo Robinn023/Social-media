@@ -13,9 +13,9 @@
 
 // Array van willekeurige afbeeldingen
 const images = [
-    "https://via.placeholder.com/800x300?text=Slide%201",
-    "https://via.placeholder.com/800x300?text=Slide%202",
-    "https://via.placeholder.com/800x300?text=Slide%203",
+  "https://example.com/image1.jpg",
+  "https://example.com/image2.jpg",
+  "https://example.com/image3.jpg",
     // Voeg meer afbeeldings-URL's toe indien nodig
     // Je kunt dit handmatig doen, maar hier is een voorbeeld van het genereren van URL's tot 1000:
 ];
@@ -46,8 +46,7 @@ window.addEventListener('load', populateSlider);
 
 // Array met YouTube-thumbnailafbeeldingen
 const youtubeThumbnails = [
-    "https://i.ytimg.com/vi/VIDEO_ID_1/maxresdefault.jpg",
-    "https://i.ytimg.com/vi/VIDEO_ID_2/maxresdefault.jpg",
+    "https://www.youtube.com/watch?v=rtGELHBIcx0",
     // Voeg hier meer thumbnail-URL's toe
   ];
   
