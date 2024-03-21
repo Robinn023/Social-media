@@ -75,12 +75,14 @@ header {
 .slides {
   white-space: nowrap;
   margin-bottom: 2rem; 
+  
 }
 .slides img {
-  width: 100%;
+  width: 80%;
   display: inline-block;
   vertical-align: top;
   padding-bottom: 0.5rem; 
+  margin-left: 10vw;
 }
 
 
@@ -95,4 +97,18 @@ header {
 
 .slider-container::-webkit-scrollbar-track {
   background: #eee;
+}
+
+.slide {
+  position: relative;
+}
+
+.slide-text {
+  position: absolute;
+  bottom: 20px; /* Pas aan naar jouw voorkeur */
+  left: 10rem; /* Pas aan naar jouw voorkeur */
+  color: purple; /* Pas aan naar jouw voorkeur */
+  font-size: 24px; /* Pas aan naar jouw voorkeur */
+  font-weight: bold; /* Pas aan naar jouw voorkeur */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Pas aan naar jouw voorkeur */
 }
